@@ -1,0 +1,174 @@
+.contSurveys {
+  height: auto;
+  border-radius: 20px;
+  background-color: rgba(222, 222, 222, 0.5);
+  backdrop-filter: blur(30px);
+  margin-bottom: 60px;
+}
+
+.contAdd {
+  border-radius: 20px;
+  min-width: 70vh;
+  min-height: 50vh;
+  margin-top: 6vh;
+  backdrop-filter: blur(10px);
+  background-color: rgba(222, 222, 222, 0.5);
+  box-shadow: 0 7px 9px rgba(0, 0, 0, 0.3);
+}
+
+.ves label {
+  font-size: 30px;
+  font-family: fantasy;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #135869;
+}
+
+.ara label {
+  font-size: 30px;
+  letter-spacing: 1px;
+}
+
+.ara input {
+  text-align: center;
+  font-weight: bold;
+}
+
+.buttonLoginDisabled {
+  margin-top: 20px;
+  padding: 10px;
+  background: linear-gradient(-45deg, #797e7a, #8e928f, #797e7a);
+  background-size: 400% 400%;
+  animation: gradient 5s cubic-bezier(0.25, 0.46, 0.45, 0.94) infinite;
+  color: #fff;
+  border-radius: 6px;
+  min-width: 20vh;
+  min-height: 8vh;
+  border: #404f45;
+}
+
+.buttonDisabled {
+  padding: 10px;
+  background: linear-gradient(-45deg, #797e7a, #8e928f, #797e7a);
+  background-size: 400% 400%;
+  animation: gradient 5s cubic-bezier(0.25, 0.46, 0.45, 0.94) infinite;
+  color: #fff;
+  border-radius: 6px;
+  min-width: 20vh;
+  border: #404f45;
+}
+
+.buttonAdd {
+  margin-top: 20px;
+  padding: 6px;
+  background: linear-gradient(-45deg, #28ad57, #2ed167, #28ad57);
+  background-size: 400% 400%;
+  animation: gradient 5s cubic-bezier(0.25, 0.46, 0.45, 0.94) infinite;
+  color: #fff;
+  border-radius: 6px;
+  min-width: 20vh;
+  min-height: 6vh;
+  border: #404f45;
+}
+
+.qSize {
+  font-size: 20px;
+}
+
+.inputQ {
+  border-radius: 10px;
+  min-height: 4vh;
+  color: #404f45;
+}
+
+.inputS {
+  border-radius: 10px;
+  min-height: 8vh;
+  color: #404f45;
+}
+
+.chAlign {
+  margin-bottom: 10px;
+}
+
+.chAlign1 {
+  margin-bottom: 40px;
+}
+
+.qw {
+  padding: 80px;
+}
+
+.scrollClass {
+  height: 60vh;
+  overflow-y: scroll;
+}
+
+.aeqq {
+  background-color: teal;
+}
+
+.optionStyle {
+  font-size: 20px;
+  margin-left: 5px;
+}
+
+.radCenter {
+  margin-left: 20vh;
+  margin-bottom: 10px;
+}
+
+.optionStyle1 {
+  font-size: 20px;
+  margin-left: 5px;
+}
+
+.radCenter a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+.minusBtn {
+  border-radius: 50%;
+  border: 1px solid transparent;
+  height: 27px;
+  width: 20px;
+  float: right;
+  color: #fff;
+  text-align: center;
+  font-weight: 700;
+  background: linear-gradient(-45deg, #e3141f, #f26870, #e3141f);
+  background-size: 400% 400%;
+  animation: gradient 5s cubic-bezier(0.25, 0.46, 0.45, 0.94) infinite;
+}
+
+.minusBtn1 {
+  border-radius: 50%;
+  border: 1px solid transparent;
+  height: 30px;
+  width: 25px;
+  float: right;
+  color: #fff;
+  text-align: center;
+  font-weight: 700;
+  background: linear-gradient(-45deg, #e3141f, #f26870, #e3141f);
+  background-size: 400% 400%;
+  animation: gradient 5s cubic-bezier(0.25, 0.46, 0.45, 0.94) infinite;
+  margin-top: 10px;
+}
+
+.bino input {
+  text-align: center;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}

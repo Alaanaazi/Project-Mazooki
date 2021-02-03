@@ -1,0 +1,76 @@
+.pageStyle {
+  background-color: #d9d1e2;
+  min-height: 100vh;
+  text-align: center;
+}
+
+.vertical-center {
+  min-height: 100%; /* Fallback for browsers do NOT support vh unit */
+  min-height: 100vh; /* These two lines are counted as one :-)       */
+
+  align-items: center;
+}
+
+.cont {
+  min-width: 70vh;
+  border-radius: 20px;
+  width: 900px;
+  min-height: 50vh;
+  margin-top: 6vh;
+  background-color: rgba(222, 222, 222, 0.8);
+}
+
+.cont1 {
+  margin: 0 auto;
+  background-color: rgba(222, 222, 222, 0.8);
+}
+
+.cont h1 {
+  color: #404f45;
+}
+
+.inputF {
+  border-radius: 10px;
+  min-height: 7vh;
+  color: #404f45;
+}
+
+.buttonLogin {
+  margin-top: 20px;
+  padding: 10px;
+  background: linear-gradient(-45deg, #388c4d, #1b727d, #388c4d);
+  background-size: 400% 400%;
+  animation: gradient 5s cubic-bezier(0.25, 0.46, 0.45, 0.94) infinite;
+  color: #fff;
+  border-radius: 6px;
+  min-width: 20vh;
+  min-height: 8vh;
+  border: #404f45;
+}
+
+.ara {
+  margin-top: 20px;
+  font-weight: 500;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.ara1 label {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.ara1 input {
+  text-align: center;
+  font-weight: bold;
+}

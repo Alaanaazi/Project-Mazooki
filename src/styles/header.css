@@ -1,0 +1,25 @@
+.navLinFont {
+  font-size: 22px;
+  font-weight: 400;
+}
+
+.navTitleFont {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  letter-spacing: 3px;
+}
+
+.bgPurple {
+  backdrop-filter: blur(30px);
+  background: rgba(19, 106, 112, 0.534);
+  background: linear-gradient(
+    90deg,
+    rgba(70, 70, 70, 1, 0.5) 0%,
+    rgba(84, 85, 85, 1, 0.5) 49%,
+    rgba(70, 70, 70, 1, 0.5) 100%
+  );
+  box-shadow: 0 7px 9px rgba(0, 0, 0, 0.7);
+}
+
+.outercon {
+  padding: 0 30px;
+}

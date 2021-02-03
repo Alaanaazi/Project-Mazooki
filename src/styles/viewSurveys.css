@@ -1,0 +1,134 @@
+.contSurveys {
+  height: auto;
+  border-radius: 20px;
+  background-color: rgba(222, 222, 222, 0.5);
+  box-shadow: 0 7px 9px rgba(0, 0, 0, 0.7);
+  margin-bottom: 60px;
+}
+
+.contSurveys h2 {
+  font-size: 30px;
+  font-family: fantasy;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #135869;
+}
+
+.contSurveys p {
+  font-size: 20px;
+  font-family: sans-serif;
+}
+
+.buttonRespond {
+  padding: 10px;
+  background: linear-gradient(-45deg, #388c4d, #1b727d, #388c4d);
+  background-size: 400% 400%;
+  animation: gradient 5s cubic-bezier(0.25, 0.46, 0.45, 0.94) infinite;
+  color: #fff;
+  border-radius: 6px;
+  min-width: 20vh;
+  min-height: 5vh;
+  border: #404f45;
+}
+
+.buttonAnalysis {
+  padding: 10px;
+  background: linear-gradient(-45deg, #2baeb3, #1b727d, #2baeb3);
+  background-size: 400% 400%;
+  animation: gradient 5s cubic-bezier(0.25, 0.46, 0.45, 0.94) infinite;
+  color: #fff;
+  border-radius: 6px;
+  min-width: 20vh;
+  min-height: 5vh;
+  border: #404f45;
+}
+
+.buttonSubmit {
+  padding: 20px;
+  background: linear-gradient(-45deg, #35a63b, #1b727d, #35a63b);
+  background-size: 400% 400%;
+  animation: gradient 5s cubic-bezier(0.25, 0.46, 0.45, 0.94) infinite;
+  color: #fff;
+  border-radius: 6px;
+  min-width: 20vh;
+  min-height: 5vh;
+  border: #404f45;
+}
+
+.buttonSubmit1 {
+  margin-top: 20px;
+  padding: 20px;
+  background: linear-gradient(-45deg, #35a63b, #1b727d, #35a63b);
+  background-size: 400% 400%;
+  animation: gradient 5s cubic-bezier(0.25, 0.46, 0.45, 0.94) infinite;
+  color: #fff;
+  border-radius: 6px;
+  min-width: 20vh;
+  min-height: 5vh;
+  border: #404f45;
+}
+
+.buttonDelete {
+  padding: 10px;
+  background: linear-gradient(-45deg, #e3141f, #f26870, #e3141f);
+  background-size: 400% 400%;
+  animation: gradient 5s cubic-bezier(0.25, 0.46, 0.45, 0.94) infinite;
+  color: #fff;
+  border-radius: 6px;
+  min-width: 20vh;
+  min-height: 5vh;
+  border: #404f45;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.pageStyle1 {
+  background-image: url("../images/wp5204102-minimal-nature-wallpapers\ \(2\).jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+  min-height: 100vh;
+  text-align: center;
+}
+
+.itemSet {
+  margin-bottom: 40px;
+}
+
+.innerCo {
+  padding: 0px 70px;
+}
+
+.innerCC {
+  text-align: left;
+}
+
+.innerCo h2 {
+  font-size: 30px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+.innerCo p {
+  font-size: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #6e6a6a;
+}
+
+.cqr {
+  text-align: left;
+  letter-spacing: 3px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin-left: 20px;
+}

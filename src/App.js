@@ -1,25 +1,39 @@
-import logo from './logo.svg';
 import './App.css';
+import Header from './components/Header';
+import Footer from './components/Footer';
+import Logo from './components/Home';
+import Login from './components/Login';
+import ViewSurveys from './components/ViewSurveys';
+import AddSurvey from './components/AddSurvey';
+import AdminViewSurveyList from './components/AdminViewSurveyList';
+import ViewSurveyItem from './components/ViewSurevyItem';
+import SurveyAnalysis from './components/SurveyAnalysis';
+import { BrowserRouter as Router, Route } from "react-router-dom";
+
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+      <Router>
+        <Header />
+          <Route exact path="/" component={Logo} />
+          <Route path="/login" component={AdminViewSurveyList} />
+          <Route path="/view-surveys" component={ViewSurveys} />
+      <Route path="/view-survey-item/:id" exact component={ViewSurveyItem} />
+      <Route path="/survey-analysis/:id" exact component={SurveyAnalysis} />
+      
+      <Route path="/create-survey" component={AddSurvey} />
+     
+      <Footer />
+      
+      </Router>
   );
 }
 
 export default App;
+
+
+/*
+
+
+*/

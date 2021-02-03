@@ -1,0 +1,17 @@
+.footerBottom {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  text-align: center;
+  backdrop-filter: blur(30px);
+  background: rgba(19, 106, 112, 0.7);
+  background: linear-gradient(
+    90deg,
+    rgba(70, 70, 70, 1, 0.5) 0%,
+    rgba(84, 85, 85, 1, 0.5) 49%,
+    rgba(70, 70, 70, 1, 0.5) 100%
+  );
+  box-shadow: 0 7px 9px rgba(0, 0, 0, 0.7);
+}
